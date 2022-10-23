@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#main-conatainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.icon {
+    position: absolute;
+    max-width: 5%;
+    max-height: 5%;
+}
+
+@keyframes rainItem {/*Animation to icon*/
+    0% {
+        top: 0%;
+        rotate: 0deg;
+        width: 5%;
+    }
+    50%{
+        rotate: 200deg;
+        width: 3%;
+    }
+    100%{
+        top: 97%;
+        opacity: 0.2;
+        rotate: 360deg;
+        width: 1%;
+        margin-left: 2px;
+    }
+}
+
